@@ -1,0 +1,10 @@
+Fecha: 14/12/2017 23:33:21
+Mensaje: Pedido de consumidor (ID: 01001) sin círculo.
+Fuente: InterfazServiciosMisionAI
+Stack trace:    at InterfazServiciosMisionAI.Clases.InterfazServicios.SincronizarPedidos(IEnumerable`1 listaPedidos, String sConTablas, Boolean esMiniCiclo) in D:\Proyectos\Ciudad Futura\InterfazServiciosMisionAI\InterfazServiciosMisionAI\Clases\InterfazServicios.cs:line 397
+   at InterfazServiciosMisionAI.Clases.InterfazServicios.<ObtenerResultadoServicio>d__2.MoveNext() in D:\Proyectos\Ciudad Futura\InterfazServiciosMisionAI\InterfazServiciosMisionAI\Clases\InterfazServicios.cs:line 63
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at InterfazServiciosMisionAI.Program.<MainAsync>d__13.MoveNext() in D:\Proyectos\Ciudad Futura\InterfazServiciosMisionAI\InterfazServiciosMisionAI\Program.cs:line 99
