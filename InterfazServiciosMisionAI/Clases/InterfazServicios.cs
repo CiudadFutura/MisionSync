@@ -247,7 +247,7 @@ namespace InterfazServiciosMisionAI.Clases
 					#region Actualizar Consumidor
 
 					var queryActualizar = string.Format(sqlActualizacionConsumidor, nombreConsumidor, nombreConsumidor, direccionConsumidor, telefonoConsumidor,
-						celularConsumidor, zonaConsumidor, emailConsumidor, "", "96", dniConsumidor, "CLIENTE", idConsumidor);
+						celularConsumidor, zonaConsumidor, emailConsumidor, "", "96", dniConsumidor, "CTACTE", "CLIENTE", idConsumidor);
 					comActualizarConsumidor.CommandText = queryActualizar;
 
 					comActualizarConsumidor.ExecuteNonQuery();
@@ -274,6 +274,7 @@ namespace InterfazServiciosMisionAI.Clases
 					comInsertarConsumidor.Parameters.AddWithValue("?", "96");
 					comInsertarConsumidor.Parameters.AddWithValue("?", dniConsumidor);
 					comInsertarConsumidor.Parameters.AddWithValue("?", "CONSUMID");
+					comInsertarConsumidor.Parameters.AddWithValue("?", "CTACTE");
 
 					comInsertarConsumidor.ExecuteNonQuery();
 
